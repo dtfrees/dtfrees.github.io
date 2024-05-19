@@ -1,11 +1,28 @@
 ---
-title: "dtfrees.github.io"
+title: "Dylan Freebairn-Smith"
+image: P1036137.jpeg
+toc: false
+about: 
+  template: jolla
+  links: 
+    - text: LinkedIn
+    - href: https://www.linkedin.com/in/dylan-freebairn-smith-1b9664303/
+    - text: Email
+    - href: mailto:dylantfsmith@gmail.com
+    - text: GitHub
+    - href: https://github.com/dtfrees
 ---
 
-This is a Quarto website.
+### Welcome!
+
+Welcome to my website, thanks for visiting! I'm Dylan Freebairn-Smith and this website is here to teach you a bit more about my studies at UCSB!
+
+This will be a website that showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy.
+
+### Education
+
+**Environmental Studies B.A.** (2024) \| University of California, Santa Barbara
+
+**Point Arena High School** (2020)
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
