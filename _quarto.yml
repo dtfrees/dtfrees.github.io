@@ -4,11 +4,17 @@ project:
 website:
   title: "Dylan Freebairn-Smith"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - EnviSci.qmd
+      - gis.qmd
+      - envpol.qmd
+  page-footer:
+    background: light
+    left: Copyright 2024, Dylan Freebairn-Smith
+    right: This website is built with blood, sweat, and tears
 
 
 format:

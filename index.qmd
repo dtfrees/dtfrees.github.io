@@ -1,6 +1,6 @@
 ---
 title: "Dylan Freebairn-Smith"
-image: P1036137.jpeg
+image: images/P1036137.jpeg
 toc: false
 about: 
   template: jolla
@@ -8,12 +8,15 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/dylan-freebairn-smith-1b9664303/
+      target: _blank
     - icon: envelope
       text: Email
       href: mailto:dylantfsmith@gmail.com
+      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/dtfrees
+      target: _blank
 ---
 
 ### Welcome!

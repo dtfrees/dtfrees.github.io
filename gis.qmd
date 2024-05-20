@@ -1,0 +1,9 @@
+---
+title: "GIS"
+---
+
+### My Interest in GIS
+
+I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers.
+
+![](images/UCSBGeogLogo.jpg){description="UCSB Geography Department Logo"}
