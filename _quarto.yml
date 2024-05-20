@@ -2,19 +2,23 @@ project:
   type: website
   output-dir: docs
 website:
-  title: "Dylan Freebairn-Smith"
+  favicon: images/Logo maker project (1).png # NOTE: that the `favicon` is a `website` level option (not under `navbar`)
   navbar:
+    title: "Dylan Freebairn-Smith"
+    logo: images/Logo maker project (1).png
+    logo-alt: "My Personal Logo"
     right:
       - href: index.qmd
         text: Home
       - about.qmd
       - EnviSci.qmd
-      - gis.qmd
+      - href: gis.qmd
+        text: GIS
       - envpol.qmd
   page-footer:
     background: light
     left: Copyright 2024, Dylan Freebairn-Smith
-    right: This website is built with blood, sweat, and tears
+    right: Hi!
 
 
 format:

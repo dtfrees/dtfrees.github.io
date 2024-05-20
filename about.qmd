@@ -1,3 +1,18 @@
 ---
 title: "About"
+lightbox: auto
 ---
+
+Outside of my studies and work I am avid surfer, backpacker, diver, and mushroom hunter; among many other outdoor hobbies. I love spending time outdoors and learning about nature.
+
+### Some Photos of my Hobbies ***how do I make lighbox work***
+
+::: {layout="[[1, 1], [1, 1]]"}
+![](images/P6020024.jpeg){group="Hobbies" description="Surfing in Mexico, Fall 2023"}
+
+![](images/DSCN0743.jpeg){group="Hobbies" description="A sheepshead I photogrpahed off of Devereux Beach, Fall 2023."}
+
+![](images/DSCN1044.jpeg){group="Hobbies" description="Me and my roomate backpacking off of East Camino Cielo, Winter 2024."}
+
+![](images/IMG_0660.jpeg){group="SBC" description="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024"}
+:::

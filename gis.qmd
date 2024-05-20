@@ -1,9 +1,29 @@
 ---
 title: "GIS"
+about: marquee
+image: images/UCSBGeogLogo.jpg
 ---
 
-### My Interest in GIS
+### My Interest in GIS {{< fa book-atlas title="Atlas" >}}
 
 I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers.
 
-![](images/UCSBGeogLogo.jpg){description="UCSB Geography Department Logo"}
+The series included:
+
+-   Intro to GIS
+
+    -   Basic spatial data management and display in ArcGIS Pro.
+    
+![](images/176a.png){group="GIS" description="A rudimentary map from a lab in 176a, Fall 2023"}
+
+-   Technical Issues in GIS
+
+    -   Technical issues underlying geographic information systems.
+
+![](images/176b.png){group="GIS" description="A map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023"}
+
+-   GIS Applications
+
+    -   Planning, design, analysis, and presentation of a GIS pilot study.
+    -   I am currently working on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park.
+  
