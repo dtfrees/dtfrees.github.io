@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Teachers:ital,wght@0,400..800;1,400..800&family=Unbounded:wght@200..900&display=swap');
+
+// Colors
+$light-blue: #DEF2F1;
+$med-blue: #49c5b6;
+$dark-blue: #2B7A78;
+$dark-dark-blue: #17252A;
+
+// base doc colors 
+$navbar-bg: $dark-blue; // navbar
+$navbar-fg: $med-blue; // navbar foreground elements
+$navbar-hl: $dark-dark-blue; // highlight color when hovering over navbar links
+$body-bg: $light-blue; // page background 
+$body-color: $dark-dark-blue; // page text 
+$footer-bg: $dark-dark-blue; // footer 
+$link-color: $med-blue; // hyperlinks 
+
+/*-- scss:rules --*/
+
+// resize logo (top left corner) see https://github.com/robertmitchellv/robertmitchellv.github.io/blob/main/custom-dark.scss
+.navbar-brand img { 
+  max-height: 100px;
+  width: auto;
+}
+
+// center align text
+.center-text {
+  text-align: center;
+}
