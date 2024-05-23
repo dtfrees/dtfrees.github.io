@@ -4,20 +4,34 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Outside of my studies and work I am avid surfer, backpacker, diver, and mushroom hunter; among many other outdoor hobbies. I love spending time outdoors and learning about nature.\n\nSome Photos of my Hobbies how do I make lighbox work"
+    "text": "Outside of my studies and work I am avid surfer, backpacker, diver, and mushroom hunter; among many other outdoor hobbies. I love spending time outdoors and learning about nature.\n\nSome Photos of my Hobbies how do I make lighbox work\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI made this website with Quarto, R, and GitHub. Check out my repository here  ."
+  },
+  {
+    "objectID": "EnviSci.html",
+    "href": "EnviSci.html",
+    "title": "Environmental Science",
+    "section": "",
+    "text": "Some of my favorite Environmental Science Courses\n\nField Study of California’s Coast\n\nWe visited various sites along the coast that had restoration projects and interesting physical and social geographic features.\nResearch project on the effects of seasonal changes in kelp forest density on beach wrack and beach productivity.\nPerformed native plant identification and did vegetation transect surveys.\nTaught by Ian Walker\n\n\n\n\n\nDoing vegetation cover studies on dune restoration project at Santa Monica Beach.\n\n\n\nStats for Environmental Science\n\nLearned about descriptive statistics, analyzing differences between populations, hypothesis testing, regression analysis, and types of bias. We applied all these concepts in RStudio data analysis.\nTaught by An Bui\n\nApplied Ecology\n\nThis class taught me about ecological concepts and discussed them in the context of current challenges in environmental management and conservation.\nTaught by Claudia Tyler\n\n\n\nMy Other Cool Env Sci Courses\n\nMeteorology\n\nLeila Carvalho\n\nOcean Circulation\n\nTim DeVries"
   },
   {
     "objectID": "gis.html",
     "href": "gis.html",
-    "title": "GIS",
+    "title": "Geographic Information Systems and Science",
     "section": "",
-    "text": "My Interest in GIS \nI have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers.\nThe series included:\n\nIntro to GIS\n\nBasic spatial data management and display in ArcGIS Pro.\n\n\n\n\nTechnical Issues in GIS\n\nTechnical issues underlying geographic information systems.\n\n\n\n\nGIS Applications\n\nPlanning, design, analysis, and presentation of a GIS pilot study.\nI am currently working on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park."
+    "text": "My Interest in GIS \nI have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers.\nThe series included:\n\nIntro to GIS\n\nBasic spatial data management and display in ArcGIS Pro.\nTaught by Professor Somayeh Dodge\n\n\n\n\nTechnical Issues in GIS\n\nTechnical issues underlying geographic information systems.\nTaught by Professor Alan Murray\n\n\n\n\nGIS Applications\n\nPlanning, design, analysis, and presentation of a GIS pilot study.\nI am currently working on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.\nTaught by Professor Peter Kedron"
+  },
+  {
+    "objectID": "envpol.html",
+    "href": "envpol.html",
+    "title": "Environmental Policy",
+    "section": "",
+    "text": "Some of my favorite Environmental Policy Courses\n\nPublic Lands and Waters - Law and Policy\n\nIntroduction to law and policy surrounding public lands and waters.\nThis course was extremely comprehensive. It provided me with an excellent understanding of our public lands are currently and have been managed and how we can have a say in this management.\nTaught by Professor Deborah Williams\n\n\n - Principles of Environmental Planning\n-   Introduction to the history, theory, trends, and practice of environmental land use planning in California.\n\n-   Provided in depth education how NEPA and CEQA play a role in zoning and development.\n\n-   Our final project guided us through attending a local Planning Commission meeting and doing a report on the various aspects that go into putting a project through all fo the required processes.\n\n-   Taught by [Dan Klemann](https://es.ucsb.edu/people/dan-klemann)"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dylan Freebairn-Smith",
     "section": "",
-    "text": "Welcome!\nWelcome to my website, thanks for visiting! I’m Dylan Freebairn-Smith and this website is here to teach you a bit more about my studies at UCSB!\nThis website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy.\n\n\nEducation\nEnvironmental Studies B.A. (2024) | University of California, Santa Barbara\nPoint Arena High School (2020)"
+    "text": "Welcome!\nWelcome to my website, thanks for visiting! I’m Dylan Freebairn-Smith and I made this website to catalog just some of my studies at UCSB!\nI am from a small town called Gualala in Southern Mendocino County. I love challenging myself intellectually and physically, both professionally and in my free time.\nFor now this website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy. I hope to expand it in the future to encompass more of my accomplishments and interests!\n\n\nEducation\nEnvironmental Studies B.A. (2024) | University of California, Santa Barbara\nPoint Arena High School (2020)"
   }
 ]

@@ -1,1 +1,7 @@
-/* css styles */
+/*-- scss:defaults --*/
+
+// Colors
+$light-blue: #DEF2F1;
+$med-blue: #49c5b6;
+$dark-blue: #2B7A78;
+$dark-dark-blue: #17252A

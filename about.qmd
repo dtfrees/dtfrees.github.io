@@ -16,3 +16,7 @@ Outside of my studies and work I am avid surfer, backpacker, diver, and mushroom
 
 ![](images/IMG_0660.jpeg){group="SBC" description="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024"}
 :::
+
+
+I made this website with Quarto, R, and GitHub. Check out my repository here {{< fa arrow-right title="Right Pointing arrow" >}} [{{< fa brands github title="The GitHub octocat logo" >}}](https://github.com/dtfrees/dtfrees.github.io).
+
