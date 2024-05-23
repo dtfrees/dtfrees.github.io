@@ -4,7 +4,7 @@ title: "Environmental Science"
 
 ### Some of my favorite Environmental Science Courses
 
--   **Field Study of California’s Coast**
+-   [**Field Study of California’s Coast**]{.underline}
 
     -   We visited various sites along the coast that had restoration projects and interesting physical and social geographic features.
 
@@ -14,14 +14,14 @@ title: "Environmental Science"
 
     -   Taught by [Ian Walker](https://www.geog.ucsb.edu/people/faculty/ian-walker)
 
-![Doing vegetation cover studies on dune restoration project at Santa Monica Beach.](geog194.jpg)
+![Doing vegetation cover studies on dune restoration project at Santa Monica Beach.](images/geog194.jpg)
 
--   **Stats for Environmental Science**
+-   [**Stats for Environmental Science**]{.underline}
 
     -   Learned about descriptive statistics, analyzing differences between populations, hypothesis testing, regression analysis, and types of bias. We applied all these concepts in RStudio data analysis.
     -   Taught by [An Bui](https://an-bui.com/)
 
--   **Applied Ecology**
+-   [**Applied Ecology**]{.underline}
 
     -   This class taught me about ecological concepts and discussed them in the context of current challenges in environmental management and conservation.
     -   Taught by [Claudia Tyler](https://es.ucsb.edu/claudia-tyler)

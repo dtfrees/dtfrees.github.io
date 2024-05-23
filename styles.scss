@@ -4,14 +4,15 @@
 
 // Colors
 $light-blue: #DEF2F1;
-$med-blue: #49c5b6;
+$med-blue: #00C4D9;
 $dark-blue: #2B7A78;
 $dark-dark-blue: #17252A;
+$gold: #CFB815;
 
 // base doc colors 
 $navbar-bg: $dark-blue; // navbar
 $navbar-fg: $med-blue; // navbar foreground elements
-$navbar-hl: $dark-dark-blue; // highlight color when hovering over navbar links
+$navbar-hl: $gold; // highlight color when hovering over navbar links
 $body-bg: $light-blue; // page background 
 $body-color: $dark-dark-blue; // page text 
 $footer-bg: $dark-dark-blue; // footer 
@@ -24,8 +25,12 @@ $link-color: $med-blue; // hyperlinks
   max-height: 100px;
   width: auto;
 }
-
+ 
 // center align text
-.center-text {
-  text-align: center;
+h1 { 
+  text-align: center
+}
+
+img {
+  border-radius: 10%;
 }
