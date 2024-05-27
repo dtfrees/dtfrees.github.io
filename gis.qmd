@@ -2,30 +2,37 @@
 title: "Geographic Information Systems and Science"
 about: marquee
 image: images/UC-Santa-Barbara-Geography-Navy-RGB (1).png
+categories:
+- Intro to GIS
+- Technical Issues in GIS
+- GIS Applications
+lightbox: auto
 ---
 
-### My Interest in GIS [{{< fa book-atlas title="Atlas" >}}](https://www.esri.com/en-us/what-is-gis/overview#:~:text=GIS%20connects%20data%20to%20a,science%20and%20almost%20every%20industry.)
+## [My Interest in GIS [{{< fa book-atlas title="Atlas" >}}](https://www.esri.com/en-us/what-is-gis/overview#:~:text=GIS%20connects%20data%20to%20a,science%20and%20almost%20every%20industry.)]{.underline}
 
-I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers.
+I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers. From these courses I found that I greatly enjoy working with geo-spatial data because of its versatility and wide array of visualization techniques.
 
 [The series included:]{.underline}
 
--   [**Intro to GIS**]{.underline}
+### **Intro to GIS**
 
-    -   Basic spatial data management and display in ArcGIS Pro.
-    -   Taught by [Professor Somayeh Dodge](https://somayehdodge.info/)
+-   Basic spatial data management and display in ArcGIS Pro.
+
+-   Taught by [Professor Somayeh Dodge](https://somayehdodge.info/)
 
 ![](images/176a.png){group="GIS" description="A rudimentary map from a lab in 176a, Fall 2023"}
 
--   [**Technical Issues in GIS**]{.underline}
+### **Technical Issues in GIS**
 
-    -   Technical issues underlying geographic information systems.
-    -   Taught by [Professor Alan Murray](https://www.geog.ucsb.edu/people/faculty/alan-murray)
+-   Technical issues underlying geographic information systems.
+-   Taught by [Professor Alan Murray](https://www.geog.ucsb.edu/people/faculty/alan-murray)
 
 ![](images/176b.png){group="GIS" description="A map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023"}
 
--   [**GIS Applications**]{.underline}
+### **GIS Applications**
 
-    -   Planning, design, analysis, and presentation of a GIS pilot study.
-    -   I am currently working on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.
-    -   Taught by [Professor Peter Kedron](https://peterkedron.com/)
+-   Planning, design, analysis, and presentation of a GIS pilot study.
+-   I am currently working with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.
+-   We will design, execute, and present our research within the ten week course.
+-   Taught by [Professor Peter Kedron](https://peterkedron.com/)

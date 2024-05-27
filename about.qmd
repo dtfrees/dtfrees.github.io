@@ -1,20 +1,20 @@
 ---
 title: "About"
-lightbox: auto
+lightbox: true
 ---
 
 Outside of my studies and work I am avid surfer, backpacker, diver, and mushroom hunter; among many other outdoor hobbies. I love spending time outdoors and learning about nature.
 
-### Some Photos of my Hobbies ***how do I make lighbox work***
+## [Some Photos of my Hobbies]{.underline}
 
 ::: {layout="[[1, 1], [1, 1]]"}
-![](images/P6020024.jpeg){group="Hobbies" description="Surfing in Mexico, Fall 2023"}
+![Surfing in Mexico, Fall 2023](images/P6020024.jpeg){group="Hobbies"}
 
-![](images/DSCN0743.jpeg){group="Hobbies" description="A sheepshead I photogrpahed off of Devereux Beach, Fall 2023."}
+![A sheepshead I photogrpahed off of Devereux Beach, Fall 2023.](images/DSCN0743.jpeg){group="Hobbies"}
 
-![](images/DSCN1044.jpeg){group="Hobbies" description="Me and my roomate backpacking off of East Camino Cielo, Winter 2024."}
+![Me and my roomate backpacking off of East Camino Cielo, Winter 2024.](images/DSCN1044.jpeg){group="Hobbies"}
 
-![](images/IMG_0660.jpeg){group="SBC" description="Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024"}
+![Me with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024](images/IMG_0660.jpeg){group="Hobbies"}
 :::
 
 I made this website with Quarto, R, and GitHub. Check out my repository here {{< fa arrow-right title="Right Pointing arrow" >}} [{{< fa brands github title="The GitHub octocat logo" >}}](https://github.com/dtfrees/dtfrees.github.io).

@@ -1,22 +1,27 @@
 ---
 title: "Environmental Policy"
+categories:
+- Public Lands
+- Env Planning
 ---
 
-### Some of my favorite Environmental Policy Courses
+## [Some of my favorite Environmental Policy Courses]{.underline}
 
--   [**Public Lands and Waters - Law and Policy**]{.underline}
+My studies have shown me how much of a role that policy plays in shaping a sustainable and environmentally centered future. Here are some of the main courses that have instilled me with this sentiment.
 
-    -   Introduction to law and policy surrounding public lands and waters.
+### **Public Lands and Waters - Law and Policy**
 
-    -   This course was extremely comprehensive. It provided me with an excellent understanding of our public lands are currently and have been managed and how we can have a say in this management.
+-   Introduction to law and policy surrounding public lands and waters.
 
-    -   Taught by [Professor Deborah Williams](https://es.ucsb.edu/people/deborah-williams)
+-   This course was extremely comprehensive. It provided me with an excellent understanding of our public lands are currently and have been managed and how we can have a say in this management.
+
+-   Taught by [Professor Deborah Williams](https://es.ucsb.edu/people/deborah-williams)
 
 ![Gates of the Arctic © John Schoen](images/alaska.jpeg)
 
--   [**Principles of Environmental Planning**]{.underline}
+### **Principles of Environmental Planning**
 
-    -   Introduction to the history, theory, trends, and practice of environmental land use planning in California.
-    -   Provided in depth education how NEPA and CEQA play a role in zoning and development.
-    -   Our final project guided us through attending a local Planning Commission meeting and doing a report on the various aspects that go into putting a project through all fo the required processes.
-    -   Taught by [Dan Klemann](https://es.ucsb.edu/people/dan-klemann)
+-   Introduction to the history, theory, trends, and practice of environmental land use planning in California.
+-   Provided in depth education how NEPA and CEQA play a role in zoning and development.
+-   Our final project guided us through attending a local Planning Commission meeting and doing a report on the various aspects that go into putting a project through all fo the required processes.
+-   Taught by [Dan Klemann](https://es.ucsb.edu/people/dan-klemann)

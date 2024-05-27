@@ -25,9 +25,11 @@ format:
   html:
     theme: 
     - styles.scss
+    - yeti
     mainfont: Teachers
     toc: true
     page-layout: full
+    lightbox: true
 
 editor: visual
 
