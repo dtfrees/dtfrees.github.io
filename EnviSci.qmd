@@ -22,7 +22,7 @@ categories:
 
 ![Doing vegetation cover studies on dune restoration project at Santa Monica Beach.](images/geog194.jpg)
 
-### **Stats for Environmental Science**
+### **Statistics for Environmental Science**
 
 -   Learned about descriptive statistics, analyzing differences between populations, hypothesis testing, regression analysis, and types of bias. We applied all these concepts in RStudio data analysis.
 -   I also built this website in this class!
