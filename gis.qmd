@@ -21,14 +21,14 @@ I have an emphasis in Geography within my Environmental Studies Major. I took th
 
 -   Taught by [Professor Somayeh Dodge](https://somayehdodge.info/)
 
-![](images/176a.png){group="GIS" description="A rudimentary map from a lab in 176a, Fall 2023"}
+![A rudimentary map from a lab in 176a, Fall 2023](images/176a.png){group="GIS"}
 
 ### **Technical Issues in GIS**
 
 -   Technical issues underlying geographic information systems.
 -   Taught by [Professor Alan Murray](https://www.geog.ucsb.edu/people/faculty/alan-murray)
 
-![](images/176b.png){group="GIS" description="A map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023"}
+![A map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023](images/176b.png){group="GIS"}
 
 ### **GIS Applications**
 
