@@ -8,7 +8,7 @@ date: 06-01-2024
 citation: 
   url: https://dtfrees.github.io/posts/2024-06-01-HW-3/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
-category: [ENVS 193DS, R] 
+categories: [ENVS 193DS, R] 
 ---
 ---
 title: "Homework 3"
