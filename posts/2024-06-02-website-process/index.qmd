@@ -1,6 +1,6 @@
 ---
 title: "Website Process Evaluation"
-description: "This is "
+description: "A review of my initial website build for an ENVS 193DS assignment."
 author:
   - name: Dylan Freebairn-Smith
     url: https://dtfrees.github.io/
@@ -11,7 +11,7 @@ citation:
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-## Website Process Evaluation
+## Evaluation
 
   Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn't really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the css and sass styling works and how it renders to html. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\
 
