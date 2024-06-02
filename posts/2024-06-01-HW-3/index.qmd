@@ -5,11 +5,12 @@ author:
   - name: Dylan Freebairn-Smith
     url: https://dtfrees.github.io/
 date: 06-01-2024
+categories: [ENVS 193DS, R] 
 citation: 
   url: https://dtfrees.github.io/posts/2024-06-01-HW-3/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
-categories: [ENVS 193DS, R] 
 ---
+
 ---
 title: "Homework 3"
 author: "Dylan Freebairn-Smith"
@@ -287,7 +288,7 @@ In this piece, I am showing how my time spent cold plunging varies over differen
 
 [An assessment of the effectiveness of Marine Protected Areas in the San Juan Islands, Washington, USA](https://doi.org/10.1006/jmsc.2000.0808)
 
-### a. Revisit and Summarize 
+### a. Revisit and Summarize
 
 The authors used Principal Component Analysis (PCA), One-Way Analysis of Variance (ANOVA), and a Pearson product-moment correlation matrix. The PCA was used to explore site and species relationships. The ANOVA was used to see the significance of each variable that had an influence on the clustering of the sites and species. Finally, the correlation matrix was used to find relationships between abiotic variables.
 

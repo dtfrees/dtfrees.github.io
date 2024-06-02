@@ -1,0 +1,21 @@
+---
+title: "Website Process Evaluation"
+description: "This is "
+author:
+  - name: Dylan Freebairn-Smith
+    url: https://dtfrees.github.io/
+date: 06-02-2024
+categories: [ENVS 193DS, Website] 
+citation:
+  url: https://dtfrees.github.io/posts/2024-06-01-website-process/
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+## Website Process Evaluation
+
+  Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn't really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the css and sass styling works and how it renders to html. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\
+
+  The easiest part was probably gettign the website up and running. [Sam Csik's tutorial](https://ucsb-meds.github.io/creating-quarto-websites/) on how to create the base of the website was very helpful and clear as long as you followed along closely. I didn't like the setup of the tutorial on how to do [website styling](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide) as much, because the slideshow format made it slower process and harder to jump back and forth. They were still awesome directions as long as you followed closely, played around with each topic, and didn't try to rush through it.
+  
+  Now that I have an idea of how to customize this website and create blog posts, this is a create asset to have to upkeep a professional portfolio.  I look forward to continue adding to this!
+
