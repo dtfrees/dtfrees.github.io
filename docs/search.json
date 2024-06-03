@@ -2,9 +2,9 @@
   {
     "objectID": "posts.html",
     "href": "posts.html",
-    "title": "My Blog",
+    "title": "Misc.",
     "section": "",
-    "text": "Website Process Evaluation\n\n\n\nENVS 193DS\n\n\nWebsite\n\n\n\nA review of my initial website build for an ENVS 193DS assignment.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\nENVS 193DS\n\n\nR\n\n\n\nA homework assignment from my Environmental Science Stats Class that covers multiple linear regression visualization, affective data visualization, and statistical critique.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Website Process Evaluation\n\n\n\nENVS 193DS\n\n\nWebsite\n\n\n\nA review of my initial website build for an ENVS 193DS assignment.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing Suitable Areas For Fire Mitigation In Yosemite National Park\n\n\n\nGEOG 176C\n\n\nGIS\n\n\n\nPoster and digital artifact for group research project for my final GIS course at UCSB.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\nENVS 193DS\n\n\nR\n\n\n\nA homework assignment from my Environmental Science Stats Class that covers multiple linear regression visualization, affective data visualization, and statistical critique.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -26,6 +26,41 @@
     "title": "Environmental Policy",
     "section": "",
     "text": "My studies have shown me how much of a role that policy plays in shaping a sustainable and environmentally centered future. Here are some of the main courses that have instilled me with this sentiment.\n\n\n\nIntroduction to law and policy surrounding public lands and waters.\nThis course was extremely comprehensive. It provided me with an excellent understanding of our public lands are currently and have been managed and how we can have a say in this management.\nTaught by Professor Deborah Williams\n\n\n\n\nGates of the Arctic © John Schoen\n\n\n\n\n\n\nIntroduction to the history, theory, trends, and practice of environmental land use planning in California.\nProvided in depth education how NEPA and CEQA play a role in zoning and development.\nOur final project guided us through attending a local Planning Commission meeting and doing a report on the various aspects that go into putting a project through all fo the required processes.\nTaught by Dan Klemann"
+  },
+  {
+    "objectID": "posts/2024-06-03-GEOG-176C/index.html",
+    "href": "posts/2024-06-03-GEOG-176C/index.html",
+    "title": "Assessing Suitable Areas For Fire Mitigation In Yosemite National Park",
+    "section": "",
+    "text": "Geog 176C the final course in a 3 course series I took at UCSB on GIS. You can read more about the other two courses at this link. We working in ArcGIS Pro for the entirety of the series and were taught about what goes into storing, managing, analyzing, visualizing geospatial data. For the culmination of our learning, in 176C, we were given the opportunity to create our own spatial research question and execute it using the tools we have learned in our courses. My group chose to find suitable areas in Yosemite National Park based on historical fire perimeter and Fire Recurrence Intervals. We worked on this project over the course of the 10 week quarter with guidance from our professor and TAs."
+  },
+  {
+    "objectID": "posts/2024-06-03-GEOG-176C/index.html#more-on-gis-applications-geog-176c",
+    "href": "posts/2024-06-03-GEOG-176C/index.html#more-on-gis-applications-geog-176c",
+    "title": "Assessing Suitable Areas For Fire Mitigation In Yosemite National Park",
+    "section": "",
+    "text": "Geog 176C the final course in a 3 course series I took at UCSB on GIS. You can read more about the other two courses at this link. We working in ArcGIS Pro for the entirety of the series and were taught about what goes into storing, managing, analyzing, visualizing geospatial data. For the culmination of our learning, in 176C, we were given the opportunity to create our own spatial research question and execute it using the tools we have learned in our courses. My group chose to find suitable areas in Yosemite National Park based on historical fire perimeter and Fire Recurrence Intervals. We worked on this project over the course of the 10 week quarter with guidance from our professor and TAs."
+  },
+  {
+    "objectID": "posts/2024-06-03-GEOG-176C/index.html#final-product",
+    "href": "posts/2024-06-03-GEOG-176C/index.html#final-product",
+    "title": "Assessing Suitable Areas For Fire Mitigation In Yosemite National Park",
+    "section": "Final Product",
+    "text": "Final Product\nWe created a poster and digital artifact that were shown at a class symposium where many of the UCSB Geography Department Faculty, Staff, and Graduate Students were there to view our work.\n\nPoster\n\n\nDigital Artifact"
+  },
+  {
+    "objectID": "posts/2024-06-02-website-process/index.html",
+    "href": "posts/2024-06-02-website-process/index.html",
+    "title": "Website Process Evaluation",
+    "section": "",
+    "text": "Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn’t really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the CSS and Sass styling works and how it renders to HTML. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\nThe easiest part was probably getting the website up and running. Sam Csik’s tutorial on how to create the base of the website was very helpful and clear as long as you followed along closely. I didn’t like the setup of the tutorial on how to do website styling as much because the slideshow format made it a slower process and harder to jump back and forth. They were still awesome directions as long as you followed closely, played around with each topic, and didn’t try to rush through it.\nNow that I have an idea of how to customize this website and create blog posts, this is an asset to have in order to maintain a professional portfolio. I look forward to continuing to add to this!"
+  },
+  {
+    "objectID": "posts/2024-06-02-website-process/index.html#evaluation",
+    "href": "posts/2024-06-02-website-process/index.html#evaluation",
+    "title": "Website Process Evaluation",
+    "section": "",
+    "text": "Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn’t really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the CSS and Sass styling works and how it renders to HTML. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\nThe easiest part was probably getting the website up and running. Sam Csik’s tutorial on how to create the base of the website was very helpful and clear as long as you followed along closely. I didn’t like the setup of the tutorial on how to do website styling as much because the slideshow format made it a slower process and harder to jump back and forth. They were still awesome directions as long as you followed closely, played around with each topic, and didn’t try to rush through it.\nNow that I have an idea of how to customize this website and create blog posts, this is an asset to have in order to maintain a professional portfolio. I look forward to continuing to add to this!"
   },
   {
     "objectID": "posts/2024-06-01-HW-3/index.html",
@@ -68,20 +103,6 @@
     "title": "Homework 3",
     "section": "Problem 3",
     "text": "Problem 3\nAn assessment of the effectiveness of Marine Protected Areas in the San Juan Islands, Washington, USA\n\na. Revisit and Summarize\nThe authors used Principal Component Analysis (PCA), One-Way Analysis of Variance (ANOVA), and a Pearson product-moment correlation matrix. The PCA was used to explore site and species relationships. The ANOVA was used to see the significance of each variable that had an influence on the clustering of the sites and species. Finally, the correlation matrix was used to find relationships between abiotic variables.\n\n\n\nSource: Tuya et al., 2000\n\n\n\n\nb. Visual Clarity\nI think the authors did a good job representing their One-Way ANOVA statistics clearly relative to the complexity of their analyses. The x and y axis are in a logical position; however I think they could have had less intervals on the y-axis because it is not very clear on the units of density and I think what matters much more is to show if the density are relatively higher or lower. They did not do a great job showing underlying data or summary statistics. The bar-and-whisker plot leaves out any underlying data and does not show the low end of the SE or CI whisker (it did not specify what the whisker represented).\n\n\nc. Aesthetic clarity\nI think that the authors had a balanced data:ink ratio; none of the ink was pointless. The only extraneous info that I would have taken out would have been to thin the intervals on the y-axis. There are the borders around the plots and the filled in bars which are extra ink, but I think that they are useful in differentiating the space and showing which statistics were significant and which one weren’t. To lessen the amount of ink on the page they could possibly use hatching instead of a complete fill on the bars.\n\n\nd. Recommendations\nMy first recommendation would be to create fewer intervals on the y-axis because I don’t think the main message of the figure is enhanced at all by more specificity of the density of the urchins. My second recommendation would be to add the underlying data of the different urchin densities across sites and sizes. I would do this by adding a jitter plot of these points faceted and grouped in the same way the bars are. I would also keep the current coloring by having the small urchin data points a different color than the other ones, but put the coloring on on the jittered points. If they did not want jittered points I would recommend to hatch the bars instead of filling them to help the data:ink ratio. Finally, I would also add a mean point and 95% Confidence Interval error bar in place of the bar-and-whisker, this would show the underlying data and the low end of the CI."
-  },
-  {
-    "objectID": "posts/2024-06-02-website-process/index.html",
-    "href": "posts/2024-06-02-website-process/index.html",
-    "title": "Website Process Evaluation",
-    "section": "",
-    "text": "Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn’t really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the CSS and Sass styling works and how it renders to HTML. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\nThe easiest part was probably getting the website up and running. Sam Csik’s tutorial on how to create the base of the website was very helpful and clear as long as you followed along closely. I didn’t like the setup of the tutorial on how to do website styling as much because the slideshow format made it a slower process and harder to jump back and forth. They were still awesome directions as long as you followed closely, played around with each topic, and didn’t try to rush through it.\nNow that I have an idea of how to customize this website and create blog posts, this is an asset to have in order to maintain a professional portfolio. I look forward to continuing to add to this!"
-  },
-  {
-    "objectID": "posts/2024-06-02-website-process/index.html#evaluation",
-    "href": "posts/2024-06-02-website-process/index.html#evaluation",
-    "title": "Website Process Evaluation",
-    "section": "",
-    "text": "Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn’t really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the CSS and Sass styling works and how it renders to HTML. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\nThe easiest part was probably getting the website up and running. Sam Csik’s tutorial on how to create the base of the website was very helpful and clear as long as you followed along closely. I didn’t like the setup of the tutorial on how to do website styling as much because the slideshow format made it a slower process and harder to jump back and forth. They were still awesome directions as long as you followed closely, played around with each topic, and didn’t try to rush through it.\nNow that I have an idea of how to customize this website and create blog posts, this is an asset to have in order to maintain a professional portfolio. I look forward to continuing to add to this!"
   },
   {
     "objectID": "gis.html",

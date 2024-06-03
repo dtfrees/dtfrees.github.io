@@ -1,0 +1,26 @@
+---
+title: "Assessing Suitable Areas For Fire Mitigation In Yosemite National Park"
+description: "Poster and digital artifact for group research project for my final GIS course at UCSB."
+author:
+  - name: Dylan Freebairn-Smith
+    url: https://dtfrees.github.io/
+date: 06-02-2024
+categories: [GEOG 176C, GIS] 
+citation:
+  url: https://dtfrees.github.io/posts/2024-06-01-GEOG-176C/
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+image: map1.png
+---
+
+## More on GIS Applications (GEOG 176C)
+
+Geog 176C the final course in a 3 course series I took at UCSB on GIS. You can read more about the other two courses at this [link](https://dtfrees.github.io/gis.html). We working in ArcGIS Pro for the entirety of the series and were taught about what goes into storing, managing, analyzing, visualizing geospatial data. For the culmination of our learning, in 176C, we were given the opportunity to create our own spatial research question and execute it using the tools we have learned in our courses. My group chose to find suitable areas in Yosemite National Park based on historical fire perimeter and Fire Recurrence Intervals. We worked on this project over the course of the 10 week quarter with guidance from our professor and TAs.
+
+## Final Product
+
+We created a poster and digital artifact that were shown at a class symposium where many of the UCSB Geography Department Faculty, Staff, and Graduate Students were there to view our work.
+
+### Poster
+
+
+### Digital Artifact
