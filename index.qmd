@@ -23,9 +23,9 @@ about:
 
 Welcome to my website, thanks for visiting! I'm Dylan Freebairn-Smith and I made this website to catalog just some of my studies at UCSB!
 
-I am from a small town called [Gualala](https://www.gualala.com/) in Southern Mendocino County.  I love challenging myself intellectually and physically, both professionally and in my free time.  
+I am from a small town called [Gualala](https://www.gualala.com/) in Southern Mendocino County. I love challenging myself intellectually and physically, both professionally and in my free time.
 
-For now, this website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy.  I hope to expand it in the future to encompass more of my accomplishments and interests!
+For now, this website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy. I hope to expand it in the future to encompass more of my accomplishments and interests!
 
 ### Education
 
