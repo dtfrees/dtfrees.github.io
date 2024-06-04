@@ -10,6 +10,10 @@ citation:
   url: https://dtfrees.github.io/posts/2024-06-01-GEOG-176C/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 image: map1.png
+filters:
+   - lightbox
+lightbox: auto
+freeze: auto
 ---
 
 ## More on GIS Applications (GEOG 176C)
@@ -22,5 +26,6 @@ We created a poster and digital artifact that were shown at a class symposium wh
 
 ### Poster
 
+![Our project poster.](Poster.png){.lightbox}
 
 ### Digital Artifact
