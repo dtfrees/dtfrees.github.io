@@ -26,6 +26,8 @@ We created a poster and digital artifact that were shown at a class symposium wh
 
 ### Poster
 
-![Our project poster.](Poster.png){.lightbox}
+![Our project poster. (Click on the image to go full screen and click again to zoom in and drag around!)](Poster.png){.lightbox}
 
 ### Digital Artifact
+
+[UNDER CONSTRUCTION]
