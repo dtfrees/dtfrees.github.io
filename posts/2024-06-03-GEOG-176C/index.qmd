@@ -13,7 +13,6 @@ image: map1.png
 filters:
    - lightbox
 lightbox: auto
-freeze: auto
 ---
 
 ## More on GIS Applications (GEOG 176C)
