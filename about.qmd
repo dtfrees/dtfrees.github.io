@@ -1,6 +1,8 @@
 ---
 title: "About"
-lightbox: true
+filters:
+   - lightbox
+lightbox: auto
 ---
 
 Outside of my studies and work I am avid surfer, backpacker, diver, and mushroom hunter; among many other outdoor hobbies. I love spending time outdoors and learning about nature.
