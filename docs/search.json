@@ -4,14 +4,14 @@
     "href": "posts.html",
     "title": "Misc.",
     "section": "",
-    "text": "Website Process Evaluation\n\n\n\nENVS 193DS\n\n\nWebsite\n\n\n\nA review of my initial website build for an ENVS 193DS assignment.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing Suitable Areas For Fire Mitigation In Yosemite National Park\n\n\n\nGEOG 176C\n\n\nGIS\n\n\n\nPoster and digital artifact for group research project for my final GIS course at UCSB.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\nENVS 193DS\n\n\nR\n\n\n\nA homework assignment from my Environmental Science Stats Class that covers multiple linear regression visualization, affective data visualization, and statistical critique.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Mock Congressional Testimony from Public Lands and Waters: Law and Policy\n\n\n\nENVS 193PL\n\n\nEnv. Policy\n\n\n\nThis is a Mock Congressional Testimony on the Clean Energy Minerals Reform Act of 2023 from ENVS 193PL that my classmate and I wrote and presented.\n\n\n\nDylan Freebairn-Smith, Caillian Sheehy\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWebsite Process Evaluation\n\n\n\nENVS 193DS\n\n\nWebsite\n\n\n\nA review of my initial website build for an ENVS 193DS assignment.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAssessing Suitable Areas For Fire Mitigation In Yosemite National Park\n\n\n\nGEOG 176C\n\n\nGIS\n\n\n\nPoster and digital artifact for group research project for my final GIS course at UCSB.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\nENVS 193DS\n\n\nR\n\n\n\nA homework assignment from my Environmental Science Stats Class that covers multiple linear regression visualization, affective data visualization, and statistical critique.\n\n\n\nDylan Freebairn-Smith\n\n\nJun 1, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Dylan Freebairn-Smith",
     "section": "",
-    "text": "Welcome!\nWelcome to my website, thanks for visiting! I’m Dylan Freebairn-Smith and I made this website to catalog just some of my studies at UCSB!\nI am from a small town called Gualala in Southern Mendocino County. I love challenging myself intellectually and physically, both professionally and in my free time.\nFor now, this website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy. I hope to expand it in the future to encompass more of my accomplishments and interests!\n\n\nEducation\nEnvironmental Studies B.A. (2024) | University of California, Santa Barbara\nPoint Arena High School (2020)"
+    "text": "Welcome!\nWelcome to my website, thanks for visiting! I’m Dylan Freebairn-Smith and I made this website to catalog just some of my studies at UCSB!\nI am from a small town called Gualala in Southern Mendocino County. I love challenging myself intellectually and physically, both professionally and in my free time.\nFor now, this website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy, along with some projects I have worked on in the Misc. page. I will keep expanding it to encompass more of my accomplishments and interests!\n\n\nEducation\nEnvironmental Studies B.A. (2024) | University of California, Santa Barbara\nPoint Arena High School (2020)"
   },
   {
     "objectID": "envpol.html",
@@ -63,6 +63,27 @@
     "text": "Making this website was very beneficial for furthering my understanding of organizing databases in R and Quarto projects and coordinating them with Github. It didn’t really make my understanding of writing R or working with statistics any better, but having a website that I can customize on my own seems very useful. The hardest part of this assignment was figuring out how the CSS and Sass styling works and how it renders to HTML. I figured out how to apply styling to my entire website, but I need to work on doing inline styling so I can change aspects of specific objects.\nThe easiest part was probably getting the website up and running. Sam Csik’s tutorial on how to create the base of the website was very helpful and clear as long as you followed along closely. I didn’t like the setup of the tutorial on how to do website styling as much because the slideshow format made it a slower process and harder to jump back and forth. They were still awesome directions as long as you followed closely, played around with each topic, and didn’t try to rush through it.\nNow that I have an idea of how to customize this website and create blog posts, this is an asset to have in order to maintain a professional portfolio. I look forward to continuing to add to this!"
   },
   {
+    "objectID": "posts/2024-06-05-Congressional-Testimony/index.html",
+    "href": "posts/2024-06-05-Congressional-Testimony/index.html",
+    "title": "Mock Congressional Testimony from Public Lands and Waters: Law and Policy",
+    "section": "",
+    "text": "This course taught by Professor Deborah Williams was a very eye opening class in terms of how America’s greatest resource (public land) is managed. To make our experience interactive and to walk us through the process of testifying to pass a bill in that sector of the US government Professor Williams tasked us, my classmate Caillian Sheehy and I, with writing and orally presenting a Congressional Testimony. The topic we were given was addition of royalties, stricter bonding and reclamation requirements, and bolstering of environmental review and tribal consultation prior to mining to the General Mining Law of 1872. Below is our written testimony for the Clean Energy Minerals Reform Act of 2023 which called for the additions listed above."
+  },
+  {
+    "objectID": "posts/2024-06-05-Congressional-Testimony/index.html#public-lands-and-waters-law-and-policy",
+    "href": "posts/2024-06-05-Congressional-Testimony/index.html#public-lands-and-waters-law-and-policy",
+    "title": "Mock Congressional Testimony from Public Lands and Waters: Law and Policy",
+    "section": "",
+    "text": "This course taught by Professor Deborah Williams was a very eye opening class in terms of how America’s greatest resource (public land) is managed. To make our experience interactive and to walk us through the process of testifying to pass a bill in that sector of the US government Professor Williams tasked us, my classmate Caillian Sheehy and I, with writing and orally presenting a Congressional Testimony. The topic we were given was addition of royalties, stricter bonding and reclamation requirements, and bolstering of environmental review and tribal consultation prior to mining to the General Mining Law of 1872. Below is our written testimony for the Clean Energy Minerals Reform Act of 2023 which called for the additions listed above."
+  },
+  {
+    "objectID": "posts/2024-06-05-Congressional-Testimony/index.html#written-congressional-testimony",
+    "href": "posts/2024-06-05-Congressional-Testimony/index.html#written-congressional-testimony",
+    "title": "Mock Congressional Testimony from Public Lands and Waters: Law and Policy",
+    "section": "Written Congressional Testimony",
+    "text": "Written Congressional Testimony\nDownload PDF file."
+  },
+  {
     "objectID": "posts/2024-06-01-HW-3/index.html",
     "href": "posts/2024-06-01-HW-3/index.html",
     "title": "Homework 3",
@@ -109,14 +130,14 @@
     "href": "gis.html",
     "title": "Geographic Information Systems and Science",
     "section": "",
-    "text": "I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers. From these courses I found that I greatly enjoy working with geo-spatial data because of its versatility and wide array of visualization techniques.\nThe series included:\n\n\n\nBasic spatial data management and display in ArcGIS Pro.\nTaught by Professor Somayeh Dodge\n\n\n\n\nA rudimentary map from a lab in 176a, Fall 2023\n\n\n\n\n\n\nTechnical issues underlying geographic information systems.\nTaught by Professor Alan Murray\n\n\n\n\nA map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023\n\n\n\n\n\n\nPlanning, design, analysis, and presentation of a GIS pilot study.\nI am currently working with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.\nWe will design, execute, and present our research within the ten week course.\nTaught by Professor Peter Kedron"
+    "text": "I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers. From these courses I found that I greatly enjoy working with geo-spatial data because of its versatility and wide array of visualization techniques.\nThe series included:\n\n\n\nBasic spatial data management and display in ArcGIS Pro.\nTaught by Professor Somayeh Dodge\n\n\n\n\nA rudimentary map from a lab in 176a, Fall 2023\n\n\n\n\n\n\nTechnical issues underlying geographic information systems.\nTaught by Professor Alan Murray\n\n\n\n\nA map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023\n\n\n\n\n\n\nPlanning, design, analysis, and presentation of a GIS pilot study.\nI worked with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.\nWe designed, executed, and presented our research within the ten week course.\n\nSee the final Poster and Digital Artifact in the Misc. page!\n\nTaught by Professor Peter Kedron"
   },
   {
     "objectID": "gis.html#my-interest-in-gis-fa-book-atlas-titleatlas",
     "href": "gis.html#my-interest-in-gis-fa-book-atlas-titleatlas",
     "title": "Geographic Information Systems and Science",
     "section": "",
-    "text": "I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers. From these courses I found that I greatly enjoy working with geo-spatial data because of its versatility and wide array of visualization techniques.\nThe series included:\n\n\n\nBasic spatial data management and display in ArcGIS Pro.\nTaught by Professor Somayeh Dodge\n\n\n\n\nA rudimentary map from a lab in 176a, Fall 2023\n\n\n\n\n\n\nTechnical issues underlying geographic information systems.\nTaught by Professor Alan Murray\n\n\n\n\nA map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023\n\n\n\n\n\n\nPlanning, design, analysis, and presentation of a GIS pilot study.\nI am currently working with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.\nWe will design, execute, and present our research within the ten week course.\nTaught by Professor Peter Kedron"
+    "text": "I have an emphasis in Geography within my Environmental Studies Major. I took the three class series on Geographic Information Systems and Science (GIS) that the UCSB Geography Department offers. From these courses I found that I greatly enjoy working with geo-spatial data because of its versatility and wide array of visualization techniques.\nThe series included:\n\n\n\nBasic spatial data management and display in ArcGIS Pro.\nTaught by Professor Somayeh Dodge\n\n\n\n\nA rudimentary map from a lab in 176a, Fall 2023\n\n\n\n\n\n\nTechnical issues underlying geographic information systems.\nTaught by Professor Alan Murray\n\n\n\n\nA map showing the reock compactness of school districts compared with demographics using Exploratory Spatial Data Analysis (ESDA) in a lab in 176b , Winter 2023\n\n\n\n\n\n\nPlanning, design, analysis, and presentation of a GIS pilot study.\nI worked with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.\nWe designed, executed, and presented our research within the ten week course.\n\nSee the final Poster and Digital Artifact in the Misc. page!\n\nTaught by Professor Peter Kedron"
   },
   {
     "objectID": "EnviSci.html",
@@ -144,6 +165,6 @@
     "href": "about.html#some-photos-of-my-hobbies",
     "title": "About",
     "section": "Some Photos of my Hobbies",
-    "text": "Some Photos of my Hobbies\n\n\n\n\n\nSurfing in Mexico, Fall 2023\n\n\n\n\n\nA sheepshead I photographed off of Devereux Beach, Fall 2023.\n\n\n\n\n\n\n\nMe and my roomate backpacking off of East Camino Cielo, Winter 2024.\n\n\n\n\n\nMe with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024\n\n\n\n\n\nHow I made this Website\nI made this website with Quarto, R, and GitHub. Check out my repository here  .\nAnd check out the instructions by Sam Csick I used here."
+    "text": "Some Photos of my Hobbies\n\n\n\n\n\nSurfing in Mexico, Fall 2023\n\n\n\n\n\nA sheepshead I photographed off of Devereux Beach, Fall 2023.\n\n\n\n\n\n\n\nMy roomate and I backpacking off of East Camino Cielo, Winter 2024.\n\n\n\n\n\nMe with some Hedgehog Mushrooms I found at Home in Mendocino County, Winter 2024\n\n\n\n\n\nHow I made this Website\nI made this website with Quarto, R, and GitHub. Check out my repository here  .\nAnd check out the instructions by Sam Csick I used here."
   }
 ]

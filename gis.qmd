@@ -33,6 +33,7 @@ I have an emphasis in Geography within my Environmental Studies Major. I took th
 ### **GIS Applications**
 
 -   Planning, design, analysis, and presentation of a GIS pilot study.
--   I am currently working with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.
--   We will design, execute, and present our research within the ten week course.
+-   I worked with a group on a suitability analysis for prescribed burn and forest mastication areas in Yosemite National Park in ArcGIS Pro.
+-   We designed, executed, and presented our research within the ten week course.
+    -   See the final Poster and Digital Artifact in the [Misc.](https://dtfrees.github.io/posts/2024-06-03-GEOG-176C/) page!
 -   Taught by [Professor Peter Kedron](https://peterkedron.com/)
