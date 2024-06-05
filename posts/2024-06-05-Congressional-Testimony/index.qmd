@@ -12,7 +12,6 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 image: fedmin.jpg
 ---
 
-
 ## Public Lands and Waters: Law and Policy
 
 This course taught by [Professor Deborah Williams](https://es.ucsb.edu/people/deborah-williams) was a very eye opening class in terms of how America's greatest resource (public land) is managed. To make our experience interactive and to walk us through the process of testifying to pass a bill in that sector of the US government Professor Williams tasked us, my classmate Caillian Sheehy and I, with writing and orally presenting a Congressional Testimony. The topic we were given was addition of royalties, stricter bonding and reclamation requirements, and bolstering of environmental review and tribal consultation prior to mining to the General Mining Law of 1872. Below is our written testimony for the Clean Energy Minerals Reform Act of 2023 which called for the additions listed above.
@@ -20,6 +19,5 @@ This course taught by [Professor Deborah Williams](https://es.ucsb.edu/people/de
 ## Written Congressional Testimony
 
 {{< pdf Testimony.pdf width=100% height=800 >}}
-
 
 See how I embedded this [pdf](https://github.com/jmgirard/embedpdf)!
