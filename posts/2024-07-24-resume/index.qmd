@@ -1,0 +1,14 @@
+---
+title: "Resume"
+description: "Dylan Freebairn-Smith's Resume"
+author:
+  - name: Dylan Freebairn-Smith
+    url: https://dtfrees.github.io/
+date: 07-24-2024
+categories: [Resume] 
+citation:
+  url: https://dtfrees.github.io/posts/2024-07-24-resume/
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+image: P1036324.jpg
+---
+{{< pdf 'Dylan FSmith Resume.pdf' width=100% height=800 >}}

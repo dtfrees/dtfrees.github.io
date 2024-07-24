@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -25,7 +25,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -77,13 +77,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -92,26 +101,56 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
 <link href="../../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+
 <script src="../../site_libs/tabwid-1.1.3/tabwid.js"></script>
+
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images/Logo maker project (1).png" alt="My Personal Logo" class="navbar-logo">
     </a>
@@ -126,33 +165,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../EnviSci.html" rel="" target="">
- <span class="menu-text">Environmental Science</span></a>
+    <a class="nav-link" href="../../EnviSci.html"> 
+<span class="menu-text">Environmental Science</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../gis.html" rel="" target="">
- <span class="menu-text">GIS</span></a>
+    <a class="nav-link" href="../../gis.html"> 
+<span class="menu-text">GIS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../envpol.html" rel="" target="">
- <span class="menu-text">Environmental Policy</span></a>
+    <a class="nav-link" href="../../envpol.html"> 
+<span class="menu-text">Environmental Policy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html" rel="" target="">
- <span class="menu-text">Misc.</span></a>
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Misc.</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -174,7 +213,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       <div>
       <div class="quarto-title-meta-heading">Author</div>
@@ -235,6 +274,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
 
 
 
@@ -385,7 +425,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h4 class="anchored" data-anchor-id="table-1-linear-regression-of-effect-of-sla-water-treatment-and-various-plant-species-on-total-biomass">Table 1: Linear Regression of Effect of SLA, Water Treatment, and Various Plant Species on Total Biomass</h4>
 <div class="cell">
 <div class="cell-output-display">
-
 <div class="tabwid"><style>.cl-cf68f9ea{}.cl-cf5f8216{font-family:'Helvetica';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-cf5f822a{font-family:'Helvetica';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-cf6312fa{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-cf63314a{width:3.113in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633154{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63315e{width:0.927in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63315f{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633160{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633168{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633172{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633173{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633174{width:3.113in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63317c{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63317d{width:0.927in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63317e{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633186{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633187{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633188{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633190{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63319a{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331a4{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331a5{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331ae{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331af{width:3.113in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331b0{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331b8{width:0.927in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331b9{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331ba{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331c2{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331c3{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331c4{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331cc{width:3.113in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331cd{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331d6{width:0.927in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331d7{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331d8{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331e0{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331ea{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331eb{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331f4{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331f5{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331fe{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf6331ff{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633200{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633208{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633209{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633212{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633213{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633214{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633215{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63321c{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633226{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633227{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633228{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633229{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633230{width:3.113in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633231{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633232{width:0.927in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633233{width:1.016in;background-color:rgba(190, 190, 190, 1.00);vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1pt solid rgba(102, 102, 102, 1.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63323a{width:3.113in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf63323b{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633244{width:0.927in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 1pt solid rgba(102, 102, 102, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-cf633245{width:1.016in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 1pt solid rgba(102, 102, 102, 1.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-cf68f9ea"><thead><tr style="overflow-wrap:break-word;"><th class="cl-cf63314a"><p class="cl-cf6312fa"><span class="cl-cf5f8216"> </span></p></th><th class="cl-cf633154"><p class="cl-cf6312fa"><span class="cl-cf5f8216">Null</span></p></th><th class="cl-cf633154"><p class="cl-cf6312fa"><span class="cl-cf5f8216">Model 1</span></p></th><th class="cl-cf63315e"><p class="cl-cf6312fa"><span class="cl-cf5f8216">Model 2</span></p></th><th class="cl-cf633154"><p class="cl-cf6312fa"><span class="cl-cf5f8216">Model 3</span></p></th><th class="cl-cf63315f"><p class="cl-cf6312fa"><span class="cl-cf5f8216">Model 4</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-cf633160"><p class="cl-cf6312fa"><span class="cl-cf5f822a">(Intercept)</span></p></td><td class="cl-cf633168"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.279***</span></p></td><td class="cl-cf633168"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.080</span></p></td><td class="cl-cf633172"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.047</span></p></td><td class="cl-cf633168"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-0.033</span></p></td><td class="cl-cf633173"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.055*</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633174"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.162</span></p></td><td class="cl-cf63317d"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.394</span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.620</span></p></td><td class="cl-cf63317e"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.030</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633186"><p class="cl-cf6312fa"><span class="cl-cf5f822a">sla</span></p></td><td class="cl-cf633187"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf633187"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.000</span></p></td><td class="cl-cf633188"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.001**</span></p></td><td class="cl-cf633187"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.001*</span></p></td><td class="cl-cf633190"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633174"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.619</span></p></td><td class="cl-cf63317d"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.001</span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.018</span></p></td><td class="cl-cf63317e"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf63319a"><p class="cl-cf6312fa"><span class="cl-cf5f822a">water_treatmentWell watered</span></p></td><td class="cl-cf6331a4"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331a4"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.122***</span></p></td><td class="cl-cf6331a5"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.090**</span></p></td><td class="cl-cf6331a4"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331ae"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.117***</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331af"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331b0"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331b0"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331b8"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.003</span></p></td><td class="cl-cf6331b0"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331b9"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331ba"><p class="cl-cf6312fa"><span class="cl-cf5f822a">species_nameEncelia californica</span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.238***</span></p></td><td class="cl-cf6331c3"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.115+</span></p></td><td class="cl-cf6331c4"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.218***</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633174"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf63317d"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.056</span></p></td><td class="cl-cf63317e"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331ba"><p class="cl-cf6312fa"><span class="cl-cf5f822a">species_nameEschscholzia californica</span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.234***</span></p></td><td class="cl-cf6331c3"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.222***</span></p></td><td class="cl-cf6331c4"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.232***</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331cc"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d6"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d7"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331d8"><p class="cl-cf6312fa"><span class="cl-cf5f822a">species_nameGrindelia camporum</span></p></td><td class="cl-cf6331e0"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331e0"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.330***</span></p></td><td class="cl-cf6331ea"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331e0"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.226***</span></p></td><td class="cl-cf6331eb"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.313***</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331cc"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d6"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d7"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331f4"><p class="cl-cf6312fa"><span class="cl-cf5f822a">species_nameNasella pulchra</span></p></td><td class="cl-cf6331f5"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331f5"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.241***</span></p></td><td class="cl-cf6331fe"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331f5"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.168***</span></p></td><td class="cl-cf6331ff"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.229***</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331cc"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d6"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d7"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331ba"><p class="cl-cf6312fa"><span class="cl-cf5f822a">species_namePenstemon centranthifolius</span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.061</span></p></td><td class="cl-cf6331c3"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331c2"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-0.006</span></p></td><td class="cl-cf6331c4"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.050</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633174"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.125</span></p></td><td class="cl-cf63317d"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf63317c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.896</span></p></td><td class="cl-cf63317e"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.128</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633200"><p class="cl-cf6312fa"><span class="cl-cf5f822a">species_nameSalvia leucophylla</span></p></td><td class="cl-cf633208"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf633208"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.117***</span></p></td><td class="cl-cf633209"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf633208"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.139**</span></p></td><td class="cl-cf633212"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.120***</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf6331cc"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td><td class="cl-cf6331d6"><p class="cl-cf6312fa"><span class="cl-cf5f822a"></span></p></td><td class="cl-cf6331cd"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = 0.001</span></p></td><td class="cl-cf6331d7"><p class="cl-cf6312fa"><span class="cl-cf5f822a">p = &lt;0.001</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633213"><p class="cl-cf6312fa"><span class="cl-cf5f822a">R2</span></p></td><td class="cl-cf633214"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.000</span></p></td><td class="cl-cf633214"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.755</span></p></td><td class="cl-cf633215"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.303</span></p></td><td class="cl-cf633214"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.610</span></p></td><td class="cl-cf63321c"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.754</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633226"><p class="cl-cf6312fa"><span class="cl-cf5f822a">AIC ∆</span></p></td><td class="cl-cf633227"><p class="cl-cf6312fa"><span class="cl-cf5f822a">81.22</span></p></td><td class="cl-cf633227"><p class="cl-cf6312fa"><span class="cl-cf5f822a">2.44</span></p></td><td class="cl-cf633228"><p class="cl-cf6312fa"><span class="cl-cf5f822a">60.37</span></p></td><td class="cl-cf633227"><p class="cl-cf6312fa"><span class="cl-cf5f822a">32.12</span></p></td><td class="cl-cf633229"><p class="cl-cf6312fa"><span class="cl-cf5f822a">0.00</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-cf633230"><p class="cl-cf6312fa"><span class="cl-cf5f822a">AIC</span></p></td><td class="cl-cf633231"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-75.2</span></p></td><td class="cl-cf633231"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-157.5</span></p></td><td class="cl-cf633232"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-96.4</span></p></td><td class="cl-cf633231"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-127.1</span></p></td><td class="cl-cf633233"><p class="cl-cf6312fa"><span class="cl-cf5f822a">-159.2</span></p></td></tr></tbody><tfoot><tr style="overflow-wrap:break-word;"><td colspan="6" class="cl-cf63323a"><p class="cl-cf6312fa"><span class="cl-cf5f822a">+ p &lt; 0.1, * p &lt; 0.05, ** p &lt; 0.01, *** p &lt; 0.001</span></p></td></tr></tfoot></table></div>
 </div>
 </div>
@@ -467,7 +506,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a><span class="st">       success? Dataset. Dryad. https://doi.org/10.5061/dryad.v0861f7</span></span>
 <span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a><span class="st">       "</span>) <span class="co"># caption</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
+<div>
+<figure class="figure">
+<p><a href="index_files/figure-html/unnamed-chunk-12-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="index_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid figure-img" width="672"></a></p>
+</figure>
+</div>
 </div>
 </div>
 </section>
@@ -493,8 +536,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="b.-inital-affective-data-viz">b. Inital Affective Data Viz</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/IMG_0945.jpg" class="img-fluid figure-img" width="2016"></p>
-<figcaption class="figure-caption">Sketch</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/IMG_0945.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Sketch"><img src="images/IMG_0945.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="2016" alt="Sketch"></a></p>
+</figure>
+</div>
+<figcaption>Sketch</figcaption>
 </figure>
 </div>
 </section>
@@ -502,8 +549,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="c.-draft-affective-data-viz">c.&nbsp;Draft Affective Data Viz</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/IMG_0947.jpg" class="img-fluid figure-img" width="2016"></p>
-<figcaption class="figure-caption">Draft</figcaption>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/IMG_0947.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Draft"><img src="images/IMG_0947.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="2016" alt="Draft"></a></p>
+</figure>
+</div>
+<figcaption>Draft</figcaption>
 </figure>
 </div>
 </section>
@@ -520,8 +571,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The authors used Principal Component Analysis (PCA), One-Way Analysis of Variance (ANOVA), and a Pearson product-moment correlation matrix. The PCA was used to explore site and species relationships. The ANOVA was used to see the significance of each variable that had an influence on the clustering of the sites and species. Finally, the correlation matrix was used to find relationships between abiotic variables.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/stat_crit.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Source: Tuya et al., 2000</figcaption>
+<p><a href="images/stat_crit.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Source: Tuya et al., 2000"><img src="images/stat_crit.png" class="img-fluid figure-img" alt="Source: Tuya et al., 2000"></a></p>
+<figcaption>Source: Tuya et al., 2000</figcaption>
 </figure>
 </div>
 </section>
@@ -538,10 +589,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>My first recommendation would be to create fewer intervals on the y-axis because I don’t think the main message of the figure is enhanced at all by more specificity of the density of the urchins. My second recommendation would be to add the underlying data of the different urchin densities across sites and sizes. I would do this by adding a jitter plot of these points faceted and grouped in the same way the bars are. I would also keep the current coloring by having the small urchin data points a different color than the other ones, but put the coloring on on the jittered points. If they did not want jittered points I would recommend to hatch the bars instead of filling them to help the data:ink ratio. Finally, I would also add a mean point and 95% Confidence Interval error bar in place of the bar-and-whisker, this would show the underlying data and the low end of the CI.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-2">Sketch</span>
+<span class="glightbox-desc lightbox-desc-3">Draft</span>
+<span class="glightbox-desc lightbox-desc-4">Source: Tuya et al., 2000</span>
+</div>
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{freebairn-smith2024,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{freebairn-smith2024,
   author = {Freebairn-Smith, Dylan},
   title = {Homework 3},
   date = {2024-06-01},
@@ -631,10 +687,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -644,8 +717,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -657,7 +739,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -701,6 +906,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -726,6 +932,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -788,13 +1020,43 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2024, Dylan Freebairn-Smith</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2024, Dylan Freebairn-Smith</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">Hi!</div>
+    <div class="nav-footer-right">
+<p>Hi!</p>
+</div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
+
 
 
 
