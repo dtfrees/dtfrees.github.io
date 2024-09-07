@@ -1,0 +1,24 @@
+---
+title: "Nusa Tenggara Islands Surfing 2024"
+description: "we will see..."
+author:
+  - name: Dylan Freebairn-Smith
+    url: https://dtfrees.github.io/
+date: 06-02-2024
+categories: [travel] 
+citation:
+  url: https://dtfrees.github.io/posts/2024-06-01-GEOG-176C/
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+image: d
+filters:
+   - lightbox
+lightbox: auto
+---
+
+Had you have asked me where I was going on a surf trip in January 2024 you would have heard all about my plan to go surf in Lobitos, Peru. I had already taken my sights off of the classic post-grad Indonesian excursion and had began to plan a wild South American goose chase of empty lefts in Peru. As months rolled by and my travel partner-in-crime, Nathaniel, and I procrastinated every part of the research we should have been partaking in. We were busy trying to pass our final classes and wanted to get the most out of our last moments of living in Isla Vista. June snuck up on us quick and by then we had lost the motivation for Peru. It seemed too expensive and fickle.
+
+Every surfer in college at one point or another says, "As soon as I graduate I'm headed to Indo"; at least in my experience. Thats what Nathaniel had been saying since I met him three years ago at a UCSB Surf Team party. And thats what he said when we graduated. By mid-July we had our tickets. I think Nathaniel's cost around \$1000 after all fees paid, and mine was \$1200.   
+
+In August we booked lodging for our first 17 nights.  The first five nights we are staying at the [Kubu Containers](https://www.booking.com/hotel/id/kubu-container.html?aid=318615&label=New_English_EN_CA%3A_California_23537601625-oZDzm33GH6aIUa0SqqPZ0AS640819000230%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=12c92e471d51a1684c8bdaf6acc0e65a&dest_id=325689;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1725692105;srpvid=c47b309e2e0005ea;type=total;ucfs=1&) in Bali and the next 12 are at a homestay in [Lakey Peak](https://www.booking.com/hotel/id/danny-juljol-homestay-kabupaten-dompu.html).
+
+## **Stop 1: Bali**
