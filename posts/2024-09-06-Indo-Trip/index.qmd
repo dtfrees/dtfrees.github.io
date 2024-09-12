@@ -9,7 +9,7 @@ categories: [travel]
 citation:
   url: https://dtfrees.github.io/posts/2024-06-01-GEOG-176C/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
-image: d
+image: DSCN1404.jpeg
 filters:
    - lightbox
 lightbox: auto
@@ -17,8 +17,33 @@ lightbox: auto
 
 Had you have asked me where I was going on a surf trip in January 2024 you would have heard all about my plan to go surf in Lobitos, Peru. I had already taken my sights off of the classic post-grad Indonesian excursion and had began to plan a wild South American goose chase of empty lefts in Peru. As months rolled by and my travel partner-in-crime, Nathaniel, and I procrastinated every part of the research we should have been partaking in. We were busy trying to pass our final classes and wanted to get the most out of our last moments of living in Isla Vista. June snuck up on us quick and by then we had lost the motivation for Peru. It seemed too expensive and fickle.
 
-Every surfer in college at one point or another says, "As soon as I graduate I'm headed to Indo"; at least in my experience. Thats what Nathaniel had been saying since I met him three years ago at a UCSB Surf Team party. And thats what he said when we graduated. By mid-July we had our tickets. I think Nathaniel's cost around \$1000 after all fees paid, and mine was \$1200.   
+Every surfer in college at one point or another says, "As soon as I graduate I'm headed to Indo"; at least in my experience. Thats what Nathaniel had been saying since I met him three years ago at a UCSB Surf Team party. And thats what he said when we graduated. By mid-July we had our tickets. I think Nathaniel's cost around \$1000 after all fees paid, and mine was \$1200.
 
-In August we booked lodging for our first 17 nights.  The first five nights we are staying at the [Kubu Containers](https://www.booking.com/hotel/id/kubu-container.html?aid=318615&label=New_English_EN_CA%3A_California_23537601625-oZDzm33GH6aIUa0SqqPZ0AS640819000230%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=12c92e471d51a1684c8bdaf6acc0e65a&dest_id=325689;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1725692105;srpvid=c47b309e2e0005ea;type=total;ucfs=1&) in Bali and the next 12 are at a homestay in [Lakey Peak](https://www.booking.com/hotel/id/danny-juljol-homestay-kabupaten-dompu.html).
+In August we booked lodging for our first 17 nights. The first five nights we are staying at the [Kubu Containers](https://www.booking.com/hotel/id/kubu-container.html?aid=318615&label=New_English_EN_CA%3A_California_23537601625-oZDzm33GH6aIUa0SqqPZ0AS640819000230%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=12c92e471d51a1684c8bdaf6acc0e65a&dest_id=325689;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1725692105;srpvid=c47b309e2e0005ea;type=total;ucfs=1&) in Bali and the next 12 are at a homestay in [Lakey Peak](https://www.booking.com/hotel/id/danny-juljol-homestay-kabupaten-dompu.html).
 
 ## **Stop 1: Bali**
+
+At 10:05PM on September 7th my plane left the ground in San Francisco and my plane touched down at 4:50AM on September 9th in Singapore. That was a long time in the air.
+
+9/9/24 – I waited another 2 hours for Nathaniel to arrive. We decided to set out on our own to find the Gardens by th Bay in Downtown Singapore. Our first mission was to navigate Singapore's extensive train system, which luckily had a lot of service to the Changi airport and was **easy** to buy a transit card at the station (cough cough take notes SF clipper cards). After a 30 minute train ride and some aimless humid wandering around the towering business district we found our way to the enormous and impressive Gardens by the Bay mall and supertrees.
+
+::: {layout="[1, 1]"}
+![Gardens by the Bay Hotel](DSCN1388.jpeg){group="Singapore"}
+![Gardens by the Bay SuperTrees](DSCN1386.jpeg){group="Singapore"}
+:::
+`Side note: If you want food that isn't coffee or pastries before 11 AM in Singapore, you're going to have a tough time. Better to try in the airport.`
+
+We took the train back to the airport and hopped on our 2 hour flight to Denpasar. Outside the airport was the usual barrage of taxi drivers bidding on your business. We found a guy who we got down to 350k. I don't know if that was a good or bad deal fro the 1 hour ride to Uluwatu, but it was 9PM and we just wanted to get to a real bed.  We arrived at our Kubu Containers, walked to the store, bought some Bintangs, hopped in bed and passed out.
+
+![Luckily Nathaniel and I have been roommates for two years.](IMG_1589.jpg)
+
+9/12/24 – It is now day 3 in Bali, we have surfed Uluwatu twice a day for the last two days, I have become all too friendly with the reef, and have paid and average of \$3-6 per meal depending on if I get a smoothie or not. Nathaniel and I have for the most part only eaten at this place called [Warung Local.](https://www.instagram.com/warunglocal/) The place seems sanitary, has a large variety of food items, and is \$3 for a plate of Nasi Goreng (Fried Rice). As for my relationship with the reef, I have encountered it pulling into my biggest barrel and smallest barrel of the trip.
+
+![Cleanup at Single Fin bar after a swift kiss from Uluwatu](lime.jpeg)
+
+The crowd at Uluwatu is thick and greedy, I am not one to steal someones waves nor bump shoulders to get one, so my strategy during the peak hours has been to sit on the beginning of a sectiony part of the wave and take off when people fall. This has been especiallly lucrative since we have been surfing Racetracks. A notoriously fast wave, as seen below.
+
+![Racetracks at low tide.](DSCN1403.mov)
+
+
+On Saturday we head to Lakey Peak.  An interesting journey ahead
