@@ -10,8 +10,6 @@ citation:
   url: https://dtfrees.github.io/posts/2024-09-06-Indo-Trip/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 image: DSCN1404.jpeg
-filters:
-   - lightbox
 lightbox: auto
 ---
 
@@ -59,7 +57,7 @@ Its a long road to Hu'u.
 
 We woke up at 4:30AM in an effort to catch the 6:30 ferry out of Padangbai. From Uluwatu it was a 2 hour ride during sunrise through the city and along the coast with the city waking up around us as we got closer to the ferry port. The rules of the road are much different in Indonesia. It took a while to get used to driving on the opposite side of the road, especially without the constant reminder of the steering wheel being in the center of the road. Another change is that there seems to be not much conformity on what side to pass on (this gets even more interesting when the roads turn to a two lane highway). We pulled into Padangbai just after 6:30, missing the ferry, damn. Luckily, another ferry was leaving at 9:30 so we bought tickets, bought some petrol from some old men on the corner who had what seemed to be fighting roosters in wooden cages, and had some \$2 smoothies while we waited.
 
-![This beauty of a dragonfruit smoothie cost us a bit more than 2 bucks](IMG_1624.jpg){width="200" fig-align="left"}
+![This beauty of a dragonfruit smoothie cost us a bit more than the 2 bucks we paid.](IMG_1624.jpg){width="200" fig-align="left"}
 
 ```         
 Quick tip: Don't wait around to get on the ferry, especially the Padangbai-Lembar Ferry. It gets packed quick.
@@ -106,10 +104,10 @@ Luckily, we have been having plenty of fun at Lakey Pipe. The wave is incredible
 We have done a bit more exploring of the culinary options in Lakey Beach in the last couple days. All of the joints that are on the beach are a bit more expensive than the ones on the main road (\$2 vs \$5), but for sunset or a quick bite in between surfs they are worth it. We have tried burritos, smoothies, cocktails, and Nasi Goreng at Ali's and pizza, fish, tacos, burritos, açaí bowls, smoothies, and Mie Goreng at Fatmah's. Our favorite combo thus far has been a White Monkey Smoothie (homemade almond milk, dates, peanut butter, and cocoa nibs) and Fish Tacos at Fatmah's. Tonight we are going for the Fatmah's combo again after we had Lela's Warung at lunch.
 
 ::: {layout="[1,1][1,1]"}
-![Fatmah's Fish Tacos 75k rupiah (\$5)](Tacos.jpeg){width="200"}
-![A curious cat at Ali's](cat.jpeg){width="200"}
-![Ali's Menu](alimenu.jpeg){width="200"}
-![Açaì Bowl at Fatmah's 120k (\$8). This is the most expensive single food item we have bought this trip.](acai.jpeg){width="200"}
+![Fatmah's Fish Tacos 75k rupiah (\$5)](Tacos.jpeg){width="200" group="food"}
+![A curious cat at Ali's](cat.jpeg){width="200" group="food"}
+![Ali's Menu](alimenu.jpeg){width="200" group="food"}
+![Açaì Bowl at Fatmah's 120k (\$8). This is the most expensive single food item we have bought this trip.](acai.jpeg){width="200" group="food"}
 :::
 
 The other night we met one of the best local surfer kids, Raju Barrel, at 15 years old he was very humble and down-to-earth. One of the first questions I asked him was if he had a seen the upcoming swell and he responded by telling us that he hadn't checked the swell in 3 years and he usually just wakes up and checks the waves. That just goes to show you how consistent the waves are here in Lakey. He is currently sponsored by CI surfboards and we were asking him if he had any plans or wanted to go on a surf trip somewhere, but he said that he didn't really because the waves are so fun in Lakey all year.
@@ -127,7 +125,7 @@ Sometimes its a good thing that the people are getting pushed in if its extra bu
 Little island fever setting in. As our looming journey back to Bali has grown closer I have become more antsy here in Sumbawa. We have our wonderful routine of surfing 3-6 hours a day and eating great inexpensive food for breakfast, lunch, and dinner. Plus the 10 cent Beng-Beng bars (see below) sold in the shop run by my homestay truly test my self restraint after every meal.  The waves have been fun, but not truly pumping. I've gotten barreled more than I ever have before in my life, but the majority of them have been below head high. We leave on our journey back in 2 days.  Today we drove 20 minutes into the next town to withdraw some more cash and since my bank has completely blocked all of my devices from accessing my bank account (even though I let them know I was going to Indonesia) and withdrawing money from ATMs I have to use Nathaniel's bank account and Apple Cash as a proxy for withdrawing money.
 
 ![Litter cleanup in room 8.  Beng bengs are sort of if a twix and kit kat had a baby.](beng.jpeg){width="220"}
-![My last sight before I was almost blinded by a Channel Islands Happy Everyday model board.](gogs.png){width="270"}
+![My last sight before I was almost blinded by the nose of a Channel Islands Happy Everyday model board.](gogs.png){width="270"}
 
 
 ![The lowtide slab-thing at Lakey Pipe does this quite often.](pipe.mov)

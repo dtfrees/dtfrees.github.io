@@ -10,8 +10,6 @@ citation:
   url: https://dtfrees.github.io/posts/2024-06-01-GEOG-176C/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 image: map1.png
-filters:
-   - lightbox
 lightbox: auto
 ---
 

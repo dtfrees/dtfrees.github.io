@@ -1,7 +1,5 @@
 ---
 title: "About"
-filters:
-   - lightbox
 lightbox: auto
 ---
 
