@@ -1,0 +1,29 @@
+---
+title: "Ecological Work on Laura Baker's Preserve"
+description: "An ongoing repository of Ecological restoration work done on Laura Baker and Lewis Lubin's property in Annapolis, CA."
+author:
+  - name: Dylan Freebairn-Smith
+    url: https://dtfrees.github.io/
+date: 01-12-2025
+categories: [Ecological Resoration] 
+citation:
+  url: https://dtfrees.github.io/posts/2025-01-12-Preserve-Work/
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+image: Cntrlbrn.jpg
+---
+
+This post will serve as a place for me to summarize the work I have done at Laura's property, so I cna reference it for future projects.
+
+## Backyard Meadow Restoration
+
+### Bracken Fern Removal
+
+Dec 2024-...
+
+Add citation for bracken fern removal process
+
+### Replanting 
+
+Dec 2024-...
+
+Add citations for replanting

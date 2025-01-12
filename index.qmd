@@ -21,13 +21,13 @@ about:
 
 ### Welcome!
 
-Welcome to my website, thanks for visiting! I'm Dylan Freebairn-Smith and I made this website to catalog just some of my studies at UCSB and other interesting things going on in my life!
+Welcome to my website, thanks for visiting! I'm Dylan Freebairn-Smith and I made this website to catalog my studies at UCSB and other things going on in my life!
 
 I am from a small town called [Gualala](https://www.gualala.com/) in Southern Mendocino County. I love challenging myself intellectually and physically, both professionally and in my free time.
 
-I am currently looking for work in ecological restoration, ideally in the San Francisco Bay Area, but I am willing to get experience wherever opportunities arise! My [resume](https://dtfrees.github.io/posts/2024-07-24-resume/) can be found on my Misc. page.
+I am currently working as a Conservation Analyst for [Friends of Gualala River](gualalariver.org), a Scientific Aid for [CDFW's Groundfish Management Project](https://wildlife.ca.gov/Conservation/Marine/Groundfish), and helping a local ecologist restore her properties ecosystems. By the end of 2025 I hope to begin working closer tothe San Francisco Bay Area, but I am willing to get experience wherever opportunities arise! My [resume](https://dtfrees.github.io/posts/2024-07-24-resume/) can be found on my Misc. page.
 
-This website showcases my courses from the main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy, along with some projects I have worked on in the [Misc.](https://dtfrees.github.io/posts.html) page. I will keep expanding it to encompass more of my accomplishments and interests!
+This website showcases my main three categories that I studied at UC Santa Barbara: GIS, Environmental Science, and Environmental Policy, and is now a repository for projects and adventures I have worked on. These can be found in the [Misc.](https://dtfrees.github.io/posts.html) page. I will keep expanding it to encompass more of my accomplishments and interests!
 
 ### Education
 
