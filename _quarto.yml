@@ -12,10 +12,11 @@ website:
         text: Home
       - about.qmd
       - posts.qmd
-      - EnviSci.qmd
-      - href: gis.qmd
-        text: GIS
-      - envpol.qmd
+      - text: "UCSB Studies"
+        menu:
+          - EnviSci.qmd
+          - gis.qmd
+          - envpol.qmd
   page-footer:
     background: light
     left: Copyright 2024, Dylan Freebairn-Smith

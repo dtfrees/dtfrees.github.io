@@ -140,18 +140,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./EnviSci.html" aria-current="page"> 
-<span class="menu-text">Environmental Science</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ucsb-studies" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">UCSB Studies</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-ucsb-studies">    
+        <li>
+    <a class="dropdown-item" href="./EnviSci.html">
+ <span class="dropdown-text">Environmental Science</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./gis.html"> 
-<span class="menu-text">GIS</span></a>
+        <li>
+    <a class="dropdown-item" href="./gis.html">
+ <span class="dropdown-text">Geographic Information Systems and Science</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./envpol.html"> 
-<span class="menu-text">Environmental Policy</span></a>
+        <li>
+    <a class="dropdown-item" href="./envpol.html">
+ <span class="dropdown-text">Environmental Policy</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -756,7 +763,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom","descPosition":"bottom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

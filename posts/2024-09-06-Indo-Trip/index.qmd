@@ -6,7 +6,7 @@ author:
   - name: Dylan Freebairn-Smith
     url: https://dtfrees.github.io/
 date: 10-09-2024
-categories: [travel] 
+categories: [Travel] 
 citation:
   url: https://dtfrees.github.io/posts/2024-09-06-Indo-Trip/
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
